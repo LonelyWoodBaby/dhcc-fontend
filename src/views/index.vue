@@ -13,7 +13,7 @@
     }
 
     .index h1 img {
-        height: 100%;
+        height: 40%;
     }
 
     .index h2 {
@@ -34,11 +34,12 @@
         <Row type="flex" justify="center" align="middle">
             <Col span="24">
                 <h1>
-                    <img src="https://raw.githubusercontent.com/iview/iview/master/assets/logo.png">
+                    <img src="../images/rzzl_logo.png">
                 </h1>
                 <h2>
                     <p>欢迎进入前端开发环境0.1-Beta!</p>
                     <Button type="ghost" @click="handleStart">Start Your Develop！</Button>
+                    <div style="margin-top:20px"><router-link to="/test">进入模板展示界面</router-link></div>
                 </h2>
             </Col>
         </Row>

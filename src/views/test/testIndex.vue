@@ -1,5 +1,7 @@
 <template>
     <div>
+        <div style="margin-bottom:20px"><router-link to="/">返回首页</router-link></div>
+        <hr>
         <Card></Card>
         <hr>
         <Table></Table>
